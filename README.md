@@ -103,8 +103,8 @@ This profile repository is intentionally simple:
 
 ```text
 .
-├── README.md      GitHub profile and portfolio overview
-└── .gitignore     Keeps local caches, secrets, and generated files out of git
+|-- README.md      GitHub profile and portfolio overview
+`-- .gitignore     Keeps local caches, secrets, and generated files out of git
 ```
 
 Individual project repositories contain the source code, setup instructions, and project-specific documentation.
