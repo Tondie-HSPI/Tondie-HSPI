@@ -1,48 +1,63 @@
 # Tondreka Robles
 
-I design AI-supported workflows that connect technical capability with real business operations. My work focuses on client success, data analytics consulting, AI workflow design, decision-support logic, and technology use cases where accuracy, usability, and trust matter.
+I design AI-assisted document review, application preparation, requirement extraction, and decision-support workflows for business, insurance, compliance, and service operations.
 
-I am currently pursuing a Master's in Applied AI & Business Analytics at the University of Rochester, with a portfolio focused on practical AI implementation for service, compliance, insurance, and regulated-industry environments.
+I am currently pursuing a Master's in Applied AI & Business Analytics at the University of Rochester. My portfolio focuses on practical AI workflow prototypes that turn intake data, documents, and business requirements into structured outputs for human review.
 
-## Portfolio Context
+## Portfolio Direction
 
-This GitHub profile is a portfolio hub for prototype and learning projects built to demonstrate AI workflow design, decision-support logic, and practical implementation thinking.
+My current flagship direction is **Business Review / PaperworkPro**: an AI-assisted document review and application-prep workflow that helps business users prepare insurance and business applications, decode COI and contract insurance requirements, identify missing information, generate summaries, create checklists, draft emails, and keep outputs source-aware, auditable, and human-reviewed.
 
-The projects here are not presented as production-ready systems. They are designed to show how I translate business problems into structured workflows, explain technical concepts for non-technical stakeholders, and build practical prototypes that support human review rather than replacing judgment.
+These are portfolio prototypes, not production systems and not legal, insurance, compliance, underwriting, or certificate issuance advice.
 
 ## What I Focus On
 
-- AI workflow design for real business processes
-- Decision-support tools that make recommendations easier to review
-- Client success and service operations workflows
-- Data analytics, prioritization, and structured reporting
-- Insurance, compliance, and regulated-industry technology
-- Human-centered AI implementation with clear business value
+- AI-assisted document review and application preparation
+- Requirement extraction from contracts, COIs, intake notes, and business documents
+- Decision-support workflows with human review gates
+- Missing-information detection and review checklists
+- Business-ready summaries, draft emails, and structured JSON outputs
+- Insurance, compliance, customer success, implementation, and service operations workflows
+- Practical prototypes that connect technical logic with real business processes
 
-## Featured Work
+## Featured Project
+
+### Business Review / PaperworkPro
+
+[Business Review AI Orchestration](https://github.com/Tondie-HSPI/business-review-ai-orchestration) is a portfolio prototype for AI-assisted document review, application preparation, requirement extraction, and decision-support workflows.
+
+**Business problem:** Business, insurance, compliance, and service teams often need to turn intake data, contracts, COI requirements, and application forms into accurate review packets. Manual review can lead to missed requirements, incomplete applications, rework, and unclear handoffs.
+
+**Solution:** PaperworkPro takes an initial request and creates a submission-ready application draft for human review. It identifies missing information, infers likely application answers from fake intake data, flags complex wording, creates CSR certificate request drafts, and requires review before save/export.
+
+**What it demonstrates:**
+
+- Restaurant insurance application prep from fake intake data
+- COI and contract insurance requirement decoding
+- Missing-information checklists
+- Draft email output for CSR or business follow-up
+- Human-in-the-loop review gates and audit-friendly outputs
+- Source-aware answers with evidence and rep double-check notes
+- Next.js frontend and Python workflow logic
+
+**Sample input:** A fake restaurant/bar quote request with general liability, liquor liability, property coverage, operations, sales, security, entertainment, certificate wording, additional insured, waiver of subrogation, and primary/noncontributory requests.
+
+**Sample output:** A structured review packet with application sections, inferred answers, target field mappings, quote-impacting flags, CSR certificate request draft, missing-information checklist, and downloadable JSON.
+
+**Status:** Portfolio prototype. Uses fake/sample data only. Not legal, insurance, compliance, underwriting, certificate issuance, or production advice. Requires human review.
+
+## Legacy / Earlier Prototype
 
 ### Compliance Explained
 
-[Compliance Explained](https://github.com/Tondie-HSPI/compliance-explained/tree/codex/platform-publish) is an AI-powered prototype that turns complex insurance contract or compliance requirements into structured, actionable checklists.
-
-**Business problem:** Compliance-heavy teams often need to interpret dense requirements and convert them into clear tasks. This process can be slow, inconsistent, and difficult to explain across business and technical teams.
-
-**Intended user:** Client success, operations, compliance, insurance, and technology teams that need a clearer way to review requirements and coordinate next steps.
-
-**Solution:** The prototype demonstrates how AI-assisted workflow logic can help organize complex text, extract practical obligations, and present them in a more reviewable format.
-
-**Tools and technologies:** See the project repository for the current implementation details, setup instructions, and technology stack.
-
-**My role:** I framed the business use case, shaped the workflow concept, and developed the prototype as a portfolio project demonstrating applied AI, decision support, and implementation thinking.
-
-**Current status:** Prototype / portfolio project. Built for demonstration and learning, not production use.
+Compliance Explained was an earlier prototype focused on turning complex insurance and compliance text into structured checklists. I am retiring it as a standalone flagship brand and treating it as a legacy concept that informed the broader Business Review / PaperworkPro direction.
 
 ## Features Demonstrated Across My Portfolio
 
 - **Business-friendly AI workflows:** Projects are framed around operational problems, not just technical experiments.
-- **Decision-support logic:** Workflows are designed to help users evaluate information and choose next actions.
+- **Decision-support logic:** Workflows are designed to help users review information, identify gaps, and choose next actions.
 - **Human-in-the-loop design:** AI output is treated as support for human review, especially in higher-risk domains.
-- **Structured communication:** Documentation explains the business problem, intended user, solution, and project status.
+- **Structured communication:** Documentation explains the business problem, intended user, solution, sample inputs, sample outputs, and project status.
 - **Implementation thinking:** Projects show how an idea can move from problem framing to a usable prototype.
 
 ## How to Review or Run Projects Locally
@@ -56,7 +71,8 @@ README.md          Project overview and setup steps
 .env.example       Placeholder environment variables, if needed
 src/ or app/       Main application or workflow logic
 data/              Sample or demonstration data, if included
-docs/              Screenshots, notes, or workflow diagrams
+outputs/           Sample structured review outputs, if included
+docs/              Architecture, business case, or evaluation notes
 tests/             Basic validation or workflow tests, if included
 ```
 
@@ -96,9 +112,9 @@ Individual project repositories contain the source code, setup instructions, and
 ## Future Improvements
 
 - Add screenshots or short demo walkthroughs to featured project repositories.
-- Standardize README sections across projects for easier recruiter review.
+- Standardize README sections across projects for easier hiring-manager review.
 - Add sample datasets that avoid private, sensitive, or regulated information.
-- Expand tests around scoring, checklist generation, and workflow logic where applicable.
+- Expand tests around scoring, checklist generation, field mapping, and workflow logic where applicable.
 - Add concise architecture notes for AI workflow and API orchestration decisions.
 
 ## Connect
