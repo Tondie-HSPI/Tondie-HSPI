@@ -1,8 +1,8 @@
 # Tondreka Robles
 
-I design AI-assisted document review, application preparation, requirement extraction, and decision-support workflows for business, insurance, compliance, and service operations.
+I build AI-assisted decision-support workflows for insurance, compliance, and service operations, with a focus on document review, application preparation, requirement extraction, and structured business analysis.
 
-I am currently pursuing a Master's in Applied AI & Business Analytics at the University of Rochester. My portfolio focuses on practical AI workflow prototypes that turn intake data, documents, and business requirements into structured outputs for human review.
+I am currently pursuing a Master’s in Applied AI & Business Analytics at the University of Rochester. My portfolio focuses on practical prototypes that use analytics and AI to transform intake data, documents, and business requirements into structured outputs, risk flags, and review-ready recommendations for human decision-makers.
 
 ## Portfolio Direction
 
