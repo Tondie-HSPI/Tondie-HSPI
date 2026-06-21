@@ -1,12 +1,12 @@
 # Tondreka Robles
 
-I build AI-assisted decision-support workflows for insurance, compliance, and service operations, with a focus on document review, application preparation, requirement extraction, and structured business analysis.
+I build AI-assisted decision-support workflows that address operational pain points: manual document review, scattered intake information, missing details, unclear handoffs, and review-heavy decisions. My work is grounded in insurance, compliance, and service operations, with a focus on document review, application preparation, requirement extraction, and structured business analysis.
 
 I am currently pursuing a Master's in Applied AI & Business Analytics at the University of Rochester. My portfolio focuses on practical prototypes that use analytics and AI to transform intake data, documents, and business requirements into structured outputs, risk flags, and review-ready recommendations for human decision-makers.
 
 ## Portfolio Direction
 
-My current flagship project is **Coverage Clarity**: an AI-assisted insurance document review tool that decodes contracts, Certificates of Insurance (COIs), policies, and endorsements into structured, source-backed checklist outputs, with human review built into every step.
+My current flagship project is **Coverage Clarity**: an AI-assisted insurance document review tool that helps commercial insurance teams turn fragmented contracts, Certificates of Insurance (COIs), policies, and endorsements into structured, source-backed checklist outputs, with human review built into every step.
 
 These are portfolio prototypes, not production systems and not legal, insurance, compliance, underwriting, or certificate issuance advice.
 
@@ -58,7 +58,7 @@ These are portfolio prototypes, not production systems and not legal, insurance,
 
 ## Features Demonstrated Across My Portfolio
 
-- **Business-friendly AI workflows:** Projects are framed around operational problems, not just technical experiments.
+- **Business-friendly AI workflows:** Projects are framed around operational pain points, not just technical experiments.
 - **Decision-support logic:** Workflows are designed to help users review information, identify gaps, and choose next actions.
 - **Human-in-the-loop design:** AI output is treated as support for human review, especially in higher-risk domains.
 - **Structured communication:** Documentation explains the business problem, intended user, solution, sample inputs, sample outputs, and project status.
