@@ -2,11 +2,11 @@
 
 I build AI-assisted decision-support workflows for insurance, compliance, and service operations, with a focus on document review, application preparation, requirement extraction, and structured business analysis.
 
-I am currently pursuing a Master’s in Applied AI & Business Analytics at the University of Rochester. My portfolio focuses on practical prototypes that use analytics and AI to transform intake data, documents, and business requirements into structured outputs, risk flags, and review-ready recommendations for human decision-makers.
+I am currently pursuing a Master's in Applied AI & Business Analytics at the University of Rochester. My portfolio focuses on practical prototypes that use analytics and AI to transform intake data, documents, and business requirements into structured outputs, risk flags, and review-ready recommendations for human decision-makers.
 
 ## Portfolio Direction
 
-My current flagship direction is **Business Review / PaperworkPro**: an AI-assisted document review and application-prep workflow that helps business users prepare insurance and business applications, decode COI and contract insurance requirements, identify missing information, generate summaries, create checklists, draft emails, and keep outputs source-aware, auditable, and human-reviewed.
+My current flagship project is **Coverage Clarity**: an AI-assisted insurance document review tool that decodes contracts, Certificates of Insurance (COIs), policies, and endorsements into structured, source-backed checklist outputs, with human review built into every step.
 
 These are portfolio prototypes, not production systems and not legal, insurance, compliance, underwriting, or certificate issuance advice.
 
@@ -16,41 +16,45 @@ These are portfolio prototypes, not production systems and not legal, insurance,
 - Requirement extraction from contracts, COIs, intake notes, and business documents
 - Decision-support workflows with human review gates
 - Missing-information detection and review checklists
-- Business-ready summaries, draft emails, and structured JSON outputs
+- Governed, role-aware AI architecture for regulated environments
 - Insurance, compliance, customer success, implementation, and service operations workflows
 - Practical prototypes that connect technical logic with real business processes
 
 ## Featured Project
 
-### Business Review / PaperworkPro
+### Coverage Clarity
 
-[Business Review AI Orchestration](https://github.com/Tondie-HSPI/business-review-ai-orchestration) is a portfolio prototype for AI-assisted document review, application preparation, requirement extraction, and decision-support workflows.
+[Coverage Clarity](https://github.com/Tondie-HSPI/Coverage-Clarity) is an insurance document review tool for contracts, Certificates of Insurance (COIs), policies, and endorsement evidence.
 
-**Business problem:** Business, insurance, compliance, and service teams often need to turn intake data, contracts, COI requirements, and application forms into accurate review packets. Manual review can lead to missed requirements, incomplete applications, rework, and unclear handoffs.
+**Business problem:** Insurance and compliance teams spend significant time manually decoding contracts, COIs, and policies to determine what's required and what's missing. Manual review can lead to missed requirements, incomplete coverage, rework, and unclear handoffs.
 
-**Solution:** PaperworkPro takes an initial request and creates a submission-ready application draft for human review. It identifies missing information, infers likely application answers from fake intake data, flags complex wording, creates CSR certificate request drafts, and requires review before save/export.
+**Solution:** Coverage Clarity extracts insurance requirements, compares them against uploaded evidence, and drafts a human-review email request for the insured's broker, agent, or carrier representative.
 
 **What it demonstrates:**
 
-- Restaurant insurance application prep from fake intake data
 - COI and contract insurance requirement decoding
-- Missing-information checklists
-- Draft email output for CSR or business follow-up
+- Comparison logic across General Liability, Umbrella/Excess, Additional Insured, Waiver of Subrogation, management liability, and cyber/tech E&O lines
+- Layered backend architecture (extraction, comparison, validation, governance, decision support, obligation modeling, state engine)
+- A FastAPI backend with a documented AWS deployment path
 - Human-in-the-loop review gates and audit-friendly outputs
-- Source-aware answers with evidence and rep double-check notes
-- Next.js frontend and Python workflow logic
 
-**Sample input:** A fake restaurant/bar quote request with general liability, liquor liability, property coverage, operations, sales, security, entertainment, certificate wording, additional insured, waiver of subrogation, and primary/noncontributory requests.
+**Background:** This started as a vision from my Applied AI & Business Analytics program. I spent months exploring the problem, taking notes at conferences, and learning the tools, before building an early prototype. Coverage Clarity is where that thinking landed.
 
-**Sample output:** A structured review packet with application sections, inferred answers, target field mappings, quote-impacting flags, CSR certificate request draft, missing-information checklist, and downloadable JSON.
+**Status:** Portfolio prototype. Uses synthetic/sample data only. Not legal, insurance, compliance, underwriting, certificate issuance, or production advice. Requires human review.
 
-**Status:** Portfolio prototype. Uses fake/sample data only. Not legal, insurance, compliance, underwriting, certificate issuance, or production advice. Requires human review.
+## Other Public Projects
 
-## Legacy / Earlier Prototype
+### Northbridge Policy Assistant
 
-### Compliance Explained
+[northbridge-policy-assistant](https://github.com/Tondie-HSPI/northbridge-policy-assistant) is a controlled RAG-based policy assistant that helps staff answer internal policy and operations questions with source grounding, confidence cues, and escalation boundaries. Demonstrates retrieval-augmented generation, tool routing, and human-in-the-loop escalation for regulated business workflows.
 
-Compliance Explained was an earlier prototype focused on turning complex insurance and compliance text into structured checklists. I am retiring it as a standalone flagship brand and treating it as a legacy concept that informed the broader Business Review / PaperworkPro direction.
+### Role-Aware AI Orchestration
+
+[Role-Aware-AI-Orchestration](https://github.com/Tondie-HSPI/Role-Aware-AI-Orchestration) is an architectural framework for role-aware, constraint-governed AI systems, demonstrated through a literacy-support use case. Shows how the same orchestration thinking behind Coverage Clarity generalizes to other regulated, multi-role environments.
+
+### Analytics Portfolio Projects
+
+[analytics-portfolio-projects](https://github.com/Tondie-HSPI/analytics-portfolio-projects) is a collection of R, SQL, and statistical modeling projects covering pricing elasticity, promotion ROI, consumer segmentation (PCA), multi-product profitability, and database design.
 
 ## Features Demonstrated Across My Portfolio
 
@@ -58,7 +62,7 @@ Compliance Explained was an earlier prototype focused on turning complex insuran
 - **Decision-support logic:** Workflows are designed to help users review information, identify gaps, and choose next actions.
 - **Human-in-the-loop design:** AI output is treated as support for human review, especially in higher-risk domains.
 - **Structured communication:** Documentation explains the business problem, intended user, solution, sample inputs, sample outputs, and project status.
-- **Implementation thinking:** Projects show how an idea can move from problem framing to a usable prototype.
+- **Governed architecture:** Role separation, constraint hierarchies, and auditable outputs across both applied AI and analytics work.
 
 ## How to Review or Run Projects Locally
 
@@ -69,30 +73,9 @@ For runnable portfolio projects, open the linked project repository and look for
 ```text
 README.md          Project overview and setup steps
 .env.example       Placeholder environment variables, if needed
-src/ or app/       Main application or workflow logic
-data/              Sample or demonstration data, if included
-outputs/           Sample structured review outputs, if included
-docs/              Architecture, business case, or evaluation notes
-tests/             Basic validation or workflow tests, if included
-```
-
-Typical local setup for a project may look like:
-
-```bash
-git clone <project-repository-url>
-cd <project-folder>
-npm install
-npm run dev
-```
-
-or, for Python-based projects:
-
-```bash
-git clone <project-repository-url>
-cd <project-folder>
-python -m venv .venv
-pip install -r requirements.txt
-python app.py
+src/ or app/        Main application or workflow logic
+data/               Sample or demonstration data, if included
+docs/               Architecture, business case, or evaluation notes
 ```
 
 Each project README should be treated as the source of truth for its specific setup commands.
@@ -108,14 +91,6 @@ This profile repository is intentionally simple:
 ```
 
 Individual project repositories contain the source code, setup instructions, and project-specific documentation.
-
-## Future Improvements
-
-- Add screenshots or short demo walkthroughs to featured project repositories.
-- Standardize README sections across projects for easier hiring-manager review.
-- Add sample datasets that avoid private, sensitive, or regulated information.
-- Expand tests around scoring, checklist generation, field mapping, and workflow logic where applicable.
-- Add concise architecture notes for AI workflow and API orchestration decisions.
 
 ## Connect
 
