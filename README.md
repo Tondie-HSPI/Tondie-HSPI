@@ -10,6 +10,13 @@ My current flagship project is **Coverage Clarity**: an AI-assisted insurance do
 
 These are portfolio prototypes, not production systems and not legal, insurance, compliance, underwriting, or certificate issuance advice.
 
+## Public Portfolio Map
+
+- **Coverage Clarity** — flagship insurance document review and decision-support prototype.
+- **Northbridge Policy Assistant** — controlled RAG assistant for policy and operations questions.
+- **Role-Aware AI Orchestration** — governance and role-aware AI architecture reference.
+- **Analytics Portfolio Projects** — R, SQL, statistical modeling, and business analytics projects.
+
 ## What I Focus On
 
 - AI-assisted document review and application preparation
