@@ -6,11 +6,19 @@ My work sits at the intersection of business analytics, insurance operations, co
 
 I am currently pursuing a Master's in Applied AI & Business Analytics at the University of Rochester.
 
+## Portfolio by the Numbers
+
+- **4 public project repositories** organized around analytics, operations, and applied AI.
+- **6 analytics projects** covering pricing elasticity, promotion ROI, consumer segmentation, profitability analysis, mobile ad prediction, and SQL database design.
+- **3 applied-AI projects** focused on document review, policy assistance, and governed AI orchestration.
+- **2 core analytics languages** used across the portfolio: SQL and R.
+- **1 consistent theme:** turning messy business information into structured analysis, clearer decisions, and better handoffs.
+
 ## Public Portfolio Map
 
 Start here if you are reviewing my work for analytics, operations, or applied AI roles:
 
-- [Analytics Portfolio Projects](https://github.com/Tondie-HSPI/analytics-portfolio-projects) - R, SQL, statistical modeling, pricing, ROI, segmentation, profitability, database design, and business recommendation projects.
+- [Analytics Portfolio Projects](https://github.com/Tondie-HSPI/analytics-portfolio-projects) - 6 R/SQL projects covering statistical modeling, pricing, ROI, segmentation, profitability, database design, and business recommendations.
 - [Coverage Clarity](https://github.com/Tondie-HSPI/Coverage-Clarity) - insurance document review and decision-support prototype for contracts, COIs, policies, and endorsements.
 - [Northbridge Policy Assistant](https://github.com/Tondie-HSPI/northbridge-policy-assistant) - controlled RAG assistant for policy and operations questions with source grounding and escalation boundaries.
 - [Role-Aware AI Orchestration](https://github.com/Tondie-HSPI/Role-Aware-AI-Orchestration) - architecture reference for governed, role-aware AI systems.
@@ -61,7 +69,7 @@ I see AI as an extension of that same work. I do not frame AI as a shortcut arou
 
 ### Business Analytics Foundation
 
-Analytics Portfolio Projects demonstrates R, SQL, and statistical modeling work across pricing elasticity, promotion ROI, consumer segmentation, multi-product profitability, mobile ad click prediction, and database design. These projects show how I approach business questions: clarify the decision, structure the data, analyze tradeoffs, and translate findings into recommendations.
+Analytics Portfolio Projects demonstrates 6 R/SQL and statistical modeling projects across pricing elasticity, promotion ROI, consumer segmentation, multi-product profitability, mobile ad click prediction, and database design. These projects show how I approach business questions: clarify the decision, structure the data, analyze tradeoffs, and translate findings into recommendations.
 
 ### Decision-Support Workflow Design
 
