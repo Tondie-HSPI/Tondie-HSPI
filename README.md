@@ -8,7 +8,7 @@ I am currently pursuing a Master's in Applied AI & Business Analytics at the Uni
 
 ## Public Portfolio Map
 
-Start here if you are reviewing my work for analytics, operations, or applied AI roles:
+For hiring review, start here:
 
 - [Analytics Portfolio Projects](https://github.com/Tondie-HSPI/analytics-portfolio-projects) - R, SQL, statistical modeling, pricing, ROI, segmentation, profitability, database design, and business recommendation projects.
 - [Coverage Clarity](https://github.com/Tondie-HSPI/Coverage-Clarity) - insurance document review and decision-support prototype for contracts, COIs, policies, and endorsements.
