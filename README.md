@@ -27,6 +27,15 @@ These are portfolio prototypes, not production systems and not legal, insurance,
 - Insurance, compliance, customer success, implementation, and service operations workflows
 - Practical prototypes that connect technical logic with real business processes
 
+## Technical Skills
+
+- Python, FastAPI, SQL, R, and R Markdown
+- Retrieval-augmented generation and source-grounded AI workflows
+- Structured extraction, validation, and decision-support logic
+- Human-in-the-loop workflow design
+- Documentation for regulated, review-heavy business processes
+- AWS deployment planning for portfolio prototypes
+
 ## Featured Project
 
 ### Coverage Clarity
@@ -98,6 +107,10 @@ This profile repository is intentionally simple:
 ```
 
 Individual project repositories contain the source code, setup instructions, and project-specific documentation.
+
+## Career Focus
+
+I am interested in roles involving applied AI, business analytics, AI workflow design, insurance technology, compliance operations, customer success operations, implementation, and service operations.
 
 ## Connect
 
