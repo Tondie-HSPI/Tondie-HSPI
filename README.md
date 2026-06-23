@@ -1,13 +1,24 @@
 # Tondreka Robles
 
-I build AI-assisted decision-support workflows for operational teams working with messy, regulated, or review-heavy information.
+I use business analytics, SQL, R, and applied AI to help operational teams make sense of messy, review-heavy information.
 
-My work sits at the intersection of insurance operations, compliance workflows, business analytics, and applied AI. I focus on turning scattered documents, intake notes, requirements, policies, and business context into structured outputs that help people review information, identify gaps, reduce rework, and make better handoffs.
+My work sits at the intersection of business analytics, insurance operations, compliance workflows, and applied AI. I focus on turning scattered data, documents, intake notes, requirements, policies, and business context into structured analysis, clearer outputs, risk flags, and review-ready recommendations.
 
 I am currently pursuing a Master's in Applied AI & Business Analytics at the University of Rochester.
 
+## Public Portfolio Map
+
+Start here if you are reviewing my work for analytics, operations, or applied AI roles:
+
+- [Analytics Portfolio Projects](https://github.com/Tondie-HSPI/analytics-portfolio-projects) - R, SQL, statistical modeling, pricing, ROI, segmentation, profitability, database design, and business recommendation projects.
+- [Coverage Clarity](https://github.com/Tondie-HSPI/Coverage-Clarity) - insurance document review and decision-support prototype for contracts, COIs, policies, and endorsements.
+- [Northbridge Policy Assistant](https://github.com/Tondie-HSPI/northbridge-policy-assistant) - controlled RAG assistant for policy and operations questions with source grounding and escalation boundaries.
+- [Role-Aware AI Orchestration](https://github.com/Tondie-HSPI/Role-Aware-AI-Orchestration) - architecture reference for governed, role-aware AI systems.
+
 ## What I Help Teams Improve
 
+- Business reporting, analysis, and recommendation workflows
+- Pricing, profitability, segmentation, ROI, and operational performance questions
 - Manual document review and intake workflows
 - Scattered business information that is hard to evaluate consistently
 - Missing-information detection before work moves downstream
@@ -15,14 +26,17 @@ I am currently pursuing a Master's in Applied AI & Business Analytics at the Uni
 - Operational handoffs between customers, internal teams, brokers, carriers, and reviewers
 - Source-grounded AI outputs that support human decisions instead of replacing them
 
-## How I Think About AI
+## How I Think About Analytics and AI
 
-I do not frame AI as a shortcut around human judgment. I use it as a way to structure messy information, surface uncertainty, preserve context, and give reviewers a clearer packet of information to evaluate.
+I see analytics as the foundation: define the business question, structure the information, test assumptions, explain the tradeoffs, and communicate what the results mean for the next decision.
 
-The common thread across my projects is practical decision support: intake, extraction, validation, review checkpoints, confidence cues, escalation boundaries, and audit-friendly documentation.
+I see AI as an extension of that same work. I do not frame AI as a shortcut around human judgment. I use it as a way to structure messy information, surface uncertainty, preserve context, and give reviewers a clearer packet of information to evaluate.
 
 ## Core Strengths
 
+- Business analytics and recommendation framing
+- SQL querying, reporting logic, and database design
+- R-based statistical analysis and modeling
 - Operational workflow analysis
 - AI-assisted decision-support design
 - Commercial insurance and compliance process understanding
@@ -34,21 +48,20 @@ The common thread across my projects is practical decision support: intake, extr
 
 ## Technical Skills
 
-- Python, FastAPI, SQL, R, and R Markdown
+- SQL, R, R Markdown, Python, and FastAPI
+- Regression analysis, PCA, segmentation, pricing elasticity, ROI analysis, and profitability modeling
+- MySQL query design, relational modeling, ETL-style transformations, and reporting queries
 - Retrieval-augmented generation and source-grounded AI workflows
 - Structured extraction, validation, and decision-support logic
 - Human-in-the-loop workflow design
 - Documentation for regulated, review-heavy business processes
 - AWS deployment planning for portfolio prototypes
 
-## Public Portfolio Map
-
-- [Coverage Clarity](https://github.com/Tondie-HSPI/Coverage-Clarity) - insurance document review and decision-support prototype for contracts, COIs, policies, and endorsements.
-- [Northbridge Policy Assistant](https://github.com/Tondie-HSPI/northbridge-policy-assistant) - controlled RAG assistant for policy and operations questions with source grounding and escalation boundaries.
-- [Role-Aware AI Orchestration](https://github.com/Tondie-HSPI/Role-Aware-AI-Orchestration) - architecture reference for governed, role-aware AI systems.
-- [Analytics Portfolio Projects](https://github.com/Tondie-HSPI/analytics-portfolio-projects) - R, SQL, statistical modeling, pricing, ROI, segmentation, profitability, and database design projects.
-
 ## Selected Proof Points
+
+### Business Analytics Foundation
+
+Analytics Portfolio Projects demonstrates R, SQL, and statistical modeling work across pricing elasticity, promotion ROI, consumer segmentation, multi-product profitability, mobile ad click prediction, and database design. These projects show how I approach business questions: clarify the decision, structure the data, analyze tradeoffs, and translate findings into recommendations.
 
 ### Decision-Support Workflow Design
 
@@ -62,13 +75,9 @@ Northbridge Policy Assistant demonstrates a controlled RAG pattern for internal 
 
 Role-Aware AI Orchestration demonstrates how AI systems can be organized around roles, constraints, routing, and state transitions. It is a design-pattern reference for environments where access, responsibility, and review boundaries matter.
 
-### Business Analytics Foundation
-
-Analytics Portfolio Projects demonstrates R, SQL, and statistical modeling work across pricing elasticity, promotion ROI, consumer segmentation, multi-product profitability, mobile ad click prediction, and database design. These projects support the same broader theme: using structured analysis to clarify decisions.
-
 ## Career Focus
 
-I am interested in roles involving applied AI, business analytics, AI workflow design, insurance technology, compliance operations, customer success operations, implementation, and service operations.
+I am interested in roles involving business analytics, operations analytics, data analysis, insurance technology, compliance operations, customer success operations, implementation, service operations, applied AI, and AI workflow design.
 
 ## How to Review My Work
 
