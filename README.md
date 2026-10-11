@@ -8,14 +8,6 @@ I am currently pursuing a Master's in Applied AI & Business Analytics at the Uni
 
 ## Start Here
 
-### [Certificate and Coverage Clarity](https://github.com/Tondie-HSPI/Certificate-and-Coverage-Clarity)
-
-A deployed full-stack insurance document-review application built with Next.js, React, TypeScript, FastAPI, Python, AWS Lambda, ECR, S3, Textract, CloudFormation, Docker, and GitHub Actions. It converts contracts, COIs, policies, and endorsements into structured, source-aware review outputs with explicit human-review boundaries.
-
-### [SubmissionReady AI](https://github.com/Tondie-HSPI/business-review-ai-orchestration)
-
-A browser-based insurance submission workflow that converts intake information into structured application-preparation packets. It demonstrates extraction, field mapping, deterministic rules, missing-information detection, risk flags, review gates, testing, and human approval before downstream action.
-
 ### [Northbridge Policy Assistant](https://github.com/Tondie-HSPI/northbridge-policy-assistant)
 
 A controlled RAG assistant for internal policy and operations questions. It uses retrieval, citations, confidence cues, and escalation logic so unsupported questions are routed for human review instead of answered speculatively.
